@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Here and Now - Test</title>
+    <link rel="stylesheet" type="text/css" href="stile.css" />
+    <link rel="shortcut icon" type="image/png" href="img/logoD.png" />
+    <script type="text/javascript" src="script/test.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div id="header-interno">
+            <a href="index.html" id="logo"></a>
+            <nav>
+                <a href="#" id="icona-menu"></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="storia.html">Cenni Storici</a></li>
+                    <li><a href="ins.html">Insegnamenti</a></li>
+                    <li><a href="test.html" class="current">Test</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Fine header-->
+
+    <div class="banner_test">
+        <h2 class="titolo_sfondo">
+            E IL TUO MOMENTO</h2>
+        <h3 class="sottotitolo_sfondo">RISCOPRI TE STESSO</h3>
+    </div>
+    <article id="presentazione_test">
+        <h3>Testa le tue conoscenze</h3>
+        <p>
+            Prova a rispondere alle 6 domande di questo test scegliendo una fra le 4 possibli risposte, prosegui fino al calcolo dei risultati e scopri quanto ancora hai da imparare sul Buddhismo
+        </p>
+        <button id="mostra_test">Comincia il Test</button>
+    </article>
+    <div id="domande_risposte">
+        <div id="domande">
+            <span id="domandaNum"></span>
+            <br/>
+            <span id="domandaTxt"></span>
+            <br />
+            <table>
+
+                <tr>
+                    <td><input type="radio" name="risposte" id="risp1" />
+                        <span id="txtRisp1"></span></td>
+
+                    <td><input type="radio" name="risposte" id="risp2" />
+                        <span id="txtRisp2"></span></td>
+                </tr>
+
+                <tr>
+                    <td><input type="radio" name="risposte" id="risp3" />
+                        <span id="txtRisp3"></span></td>
+
+                    <td><input type="radio" name="risposte" id="risp4" />
+                        <span id="txtRisp4"></span></td>
+                </tr>
+            </table>
+            <br>
+            <input type="button" value="Successiva" id="successiva" />
+            <br>
+        </div>
+        <span id="risultato"></span>
+        <br />
+        <input type="button" value="Riprova" id="comincia" />
+    </div>
+
+    <div id="footer">
+        <img alt="logo Here and Now" src="img/logoD.png" />
+
+        <small id="copyright"><span>&copy; 2017 - Here and Now</span>
+</small>
+    </div>
+    <!--fine riga_contatti-->
+
+    <!--Fine footer-->
+    <button id="pulsTop" title="Go to top">Top</button>
+</body>
+
+</html>

@@ -1,0 +1,692 @@
+    @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    
+    body {
+        background: #fffeff;
+        font-family: 'Raleway', sans-serif;
+        margin: 0;
+    }
+    
+    h2 {
+        font-size: 263%;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 8%;
+        font-family: 'Raleway', sans-serif;
+        color: #353335;
+    }
+    
+    h3 {
+        font-size: 175%;
+        line-height: 155%;
+        padding: 5% 0;
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+        color: #353335;
+    }
+    
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 160%;
+        font-weight: 400;
+        line-height: 150%;
+        padding: 0 13% 3% 13%;
+        text-indent: 2%;
+        text-align: center;
+        color: #454345;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        margin-bottom: -4px;
+    }
+    
+    header {
+        width: 100%;
+        position: absolute;
+        height: 91px;
+        background: rgba(0, 0, 0, 0.3);
+    }
+    
+    #header-interno {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    #logo {
+        margin: 6px 15px 0 -44px;
+        float: left;
+        width: 200px;
+        height: 80px;
+        background: url(img/logo.png) no-repeat center;
+    }
+    
+    .banner {
+        background-image: url(img/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        min-height: 600px;
+        z-index: -3;
+    }
+    
+    .banner_storia {
+        background-image: url(img/bodhgaya.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        min-height: 600px;
+        z-index: -3;
+    }
+    
+    .banner_ins {
+        background-image: url(img/monky.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        min-height: 600px;
+        z-index: -3;
+    }
+    
+    .banner_test {
+        background-image: url(img/tipi.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        min-height: 600px;
+        z-index: -3;
+    }
+    
+    .banner_about {
+        background-image: url(img/zenback.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        min-height: 600px;
+        z-index: -3;
+        font-size: 78%;
+    }
+    
+    .titolo_sfondo {
+        color: #FFFFFF;
+        margin: 0;
+        font-weight: 700;
+        font-size: 4.4em;
+        padding-bottom: 0%;
+        padding-top: 20%;
+        text-shadow: 0 3px 0 black;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .sottotitolo_sfondo {
+        color: #FFFFFF;
+        margin: 0;
+        font-weight: 700;
+        font-size: 3.4em;
+        padding-bottom: 0%;
+        padding-top: 0%;
+        text-shadow: 0 3px 0 black;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    #bandiera {
+        width: 25%;
+        float: left;
+    }
+    /*-- Navigatore --*/
+    
+    nav {
+        float: right;
+        padding: 37px 3px 0 0;
+    }
+    
+    #icona-menu {
+        display: none;
+        width: 97px;
+        height: 88px;
+        background: url(img/nav.png) no-repeat center;
+    }
+    
+    a:hover#icona-menu {
+        border-radius: 4px 4px 0 0;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    nav ul li {
+        font-family: 'Raleway', sans-serif;
+        font-size: 150%;
+        display: inline-block;
+        float: left;
+        padding: 10px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+        color: #C3D7DF;
+    }
+    
+    .current {
+        color: #e2e1a5;
+    }
+    /*--fine nav--*/
+    
+    .scuole {
+        width: 25%;
+        float: left;
+        text-align: center;
+    }
+    
+    #thera {
+        background-color: #d14b08;
+    }
+    
+    #maha {
+        background-color: #639fff;
+    }
+    
+    #vajra {
+        background-color: #ffe100;
+    }
+    
+    #zen {
+        background-color: #aac1a6;
+    }
+    
+    section:hover#thera {
+        background-color: #ad0f0f;
+    }
+    
+    section:hover#maha {
+        background-color: #087264;
+    }
+    
+    section:hover#vajra {
+        background-color: #afa20c;
+    }
+    
+    section:hover#zen {
+        background-color: #828982;
+    }
+    
+    .scuole {
+        color: black;
+        font-size: 100%;
+        padding: 10% 0 4% 0;
+    }
+    
+    article {
+        float: left;
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+    
+    aside {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        text-align: center;
+        padding: 7% 5% 3% 5%;
+    }
+    
+    #footer {
+        margin-top: 15%;
+        overflow: auto;
+        background-color: white;
+        position: relative;
+        width: 100%;
+    }
+    
+    #footer img {
+        padding-top: 15%;
+        padding-bottom: 1%;
+        display: block;
+        margin: auto;
+        width: 10%;
+    }
+    
+    #copyright {
+        text-align: center;
+        font-size: 1.71em;
+        display: block;
+        background-color: black;
+        color: white;
+        width: 100%;
+        padding: 3% 0 2%;
+        margin: 0% 0px;
+    }
+    /*--------STILE PER LA SEZIONE STORIA----------------*/
+    
+    #storia_thera {
+        background-color: #f7f7f7;
+    }
+    
+    #storia_maha {
+        background-color: #fffeff;
+    }
+    
+    #storia_vajra {
+        background-color: #f7f7f7;
+    }
+    
+    #storia_zen {
+        background-color: #fffeff;
+    }
+    
+    .storie {
+        padding-top: 0%;
+        margin-top: 3%;
+        margin-bottom: -3%;
+        padding-bottom: 5%;
+    }
+    
+    #introStor h2 {
+        padding-bottom: 3%;
+    }
+    
+    .storie h3 {
+        text-align: center;
+        padding-bottom: 1%;
+        margin-top: -20px;
+        font-size: 3em;
+        color: black;
+    }
+    
+    .storie p {
+        text-align: left;
+        padding: 3% 7% 0 7%;
+        color: black;
+        font-size: 120%;
+        font-weight: 400;
+    }
+    
+    .storie img {
+        float: left;
+        text-align: left;
+        margin-right: 4%;
+        margin-bottom: 4%;
+        margin-top: -6%;
+        width: 35%;
+    }
+    
+    #img_mh_lf {
+        float: right;
+        text-align: left;
+        margin-left: 4%;
+        margin-bottom: 4%;
+        margin-top: -6%;
+        width: 35%;
+    }
+    
+    #img_zn_lf {
+        float: right;
+        text-align: left;
+        margin-left: 4%;
+        margin-bottom: 4%;
+        margin-top: -6%;
+        width: 35%;
+    }
+    /*------STILE PER LA SEZIONE INSEGNAMENTI---------*/
+    
+    #bloss {
+        padding: 2% 15% 7% 15%;
+    }
+    
+    .lista {
+        margin-bottom: -20%;
+    }
+    
+    #selScuola {
+        font-family: 'Raleway', sans-serif;
+        font-size: 90%;
+    }
+    
+    #selMaestro {
+        font-family: 'Raleway', sans-serif;
+        font-size: 90%;
+    }
+    
+    .imglis {
+        position: relative;
+        float: left;
+        width: 45%;
+        padding: 15% 0 0 3%;
+        margin-right: 15px;
+    }
+    
+    .lista h2 {
+        text-align: center;
+        padding-top: 10%;
+    }
+    
+    .lista p {
+        text-align: left;
+        padding: 5% 5% 13% 5%;
+        font-size: 120%;
+        ;
+    }
+    
+    .lista h3 {
+        text-align: center;
+        padding: 1% 0 0 0;
+        font-size: 230%;
+    }
+    
+    .imglink {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    /*------STILE PER IL TEST-------*/
+    
+    #presentazione_test {
+        text-align: center;
+        margin-top: 5%;
+    }
+    
+    #presentazione_test h3 {
+        margin-top: -3%;
+    }
+    
+    #presentazione_test p {
+        padding-top: 2%;
+        margin-top: -3%;
+    }
+    
+    #mostra_test {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 11px 17px;
+        margin-bottom: 2%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: 'Raleway', sans-serif;
+        border-radius: 30px;
+    }
+    
+     :hover#mostra_test {
+        background-color: #e2e1a5;
+        color: black;
+    }
+    
+    #domande_risposte {
+        display: none;
+        text-align: center;
+        padding-top: 2%;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: #f9f9f9;
+        color: black;
+        border: groove;
+    }
+    
+    table {
+        text-align: left;
+        margin: auto;
+        border-collapse: separate;
+        border-spacing: 50px 10px;
+        font-size: 1.5em;
+        padding-top: 2%;
+    }
+    
+    #domandaNum {
+        font-weight: bold;
+    }
+    
+    #domandaTxt {
+        font-weight: 500;
+        font-size: 1.6em;
+    }
+    
+    #successiva {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 5px 6px;
+        margin-top: 2%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: 'Raleway', sans-serif;
+        border-radius: 30px;
+    }
+    
+     :hover#successiva {
+        background-color: #e2e1a5;
+        color: black;
+    }
+    
+    #comincia {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 5px 6px;
+        margin-top: 4%;
+        margin-bottom: 2%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
+        display: none;
+        font-family: 'Raleway', sans-serif;
+        border-radius: 30px;
+    }
+    
+     :hover#comincia {
+        background-color: #e2e1a5;
+        color: black;
+    }
+    
+    #risultato {
+        padding: 1px;
+        font-size: 160%;
+    }
+    /*------PULSANTE BACK TOP--------*/
+    
+    #pulsTop {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: 1px solid;
+        outline: none;
+        background-color: #f9f9f9;
+        color: black;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 30px;
+    }
+    
+    #pulsTop:hover {
+        background-color: #e2e1a5;
+    }
+    /*----------------ABOUT------------------*/
+    
+    blockquote {
+        text-align: center;
+        padding-top: 10%;
+        font-size: 1.5em;
+    }
+    /*------------MEDIA--------------*/
+    
+    @media screen and (max-width: 768px) {
+        h2 {
+            font-size: 150%;
+        }
+        h3 {
+            font-size: 125%;
+        }
+        p {
+            font-size: 120%;
+            padding: 10% 1% 4% 1%;
+        }
+        .titolo_sfondo {
+            font-size: 386%;
+            text-align: center;
+            padding-top: 31%;
+        }
+        #titIns {
+            font-size: 338%;
+        }
+        #sottotitIns {
+            font-size: 150%;
+        }
+        .sottotitolo_sfondo {
+            font-size: 300%;
+            text-align: center;
+            padding-right: 15px;
+        }
+        header {
+            position: absolute;
+            height: 66px;
+        }
+        #logo {
+            background: url(img/logoM.png) no-repeat center;
+            margin-top: -7px
+        }
+        #icona-menu {
+            display: inline-block;
+            margin-top: -49%;
+            margin-left: 7%;
+        }
+        nav ul,
+        nav:active ul {
+            display: none;
+            z-index: 1000;
+            position: absolute;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            right: 20px;
+            top: 60px;
+            border: 1px solid white;
+            border-radius: 2px 0 2px 0;
+            width: 50%;
+        }
+        nav:hover ul {
+            max-height: 1000px;
+            display: inline-block;
+        }
+        nav li {
+            text-align: center;
+            width: 100%;
+            padding: 10px 0 10px 0;
+        }
+        .scuole {
+            width: 100%;
+        }
+        #footer {
+            padding-top: 10%;
+        }
+        #footer img {
+            width: 21%;
+        }
+        table {
+            font-size: 1.5em;
+        }
+        #domande_risposte {
+            font-size: 52%;
+        }
+        #bloss {
+            padding: 2% 2% 7% 2%;
+            font-size: 85%;
+        }
+        .lista p {
+            padding: 5% 4% 13% 4%;
+            font-size: 100%;
+        }
+        .imglis {
+            position: relative;
+            width: 75%;
+            padding: 15% 15% 5% 15%;
+            margin-right: 15px;
+        }
+        .storie p {
+            font-size: 90%;
+        }
+        .banner {
+            font-size: 0.8em;
+        }
+        .banner_storia {
+            font-size: 0.8em;
+        }
+        .banner_about {
+            font-size: 0.8em;
+        }
+        .banner_ins {
+            font-size: 0.8em;
+        }
+        .banner_test {
+            font-size: 0.8em;
+        }
+        .storie img {
+            margin-left: 0%;
+            margin-right: 0%;
+            width: 100%;
+        }
+        #img_zn_lf {
+            margin-left: 0%;
+            margin-right: 0%;
+            width: 100%;
+        }
+        #img_mh_lf {
+            margin-left: 0%;
+            margin-right: 0%;
+            width: 100%;
+        }
+    }
+    /*--------MEDIA SCHERMI GRANDI--------*/
+    
+    @media screen and (min-width: 1080px) {
+        .imglis {
+            width: 30%;
+        }
+        .lista h3 {
+            padding: 8% 0 0 0;
+        }
+    }
